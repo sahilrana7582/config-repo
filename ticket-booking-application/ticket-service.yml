@@ -1,6 +1,7 @@
-spring:
+server:
   port: 8082
 
+spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/ticket-app
     username: postgres 
@@ -18,3 +19,4 @@ spring:
 
 owner:
   name: sahil
+  email: sahil@gmail.com
