@@ -1,0 +1,20 @@
+spring:
+  port: 8082
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ticket-app
+    username: postgres 
+    password: 1234 
+    driver-class-name: org.postgresql.Driver 
+    hikari:
+      maximum-pool-size: 10
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+owner:
+  name: sahil
