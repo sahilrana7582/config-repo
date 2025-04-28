@@ -2,4 +2,5 @@ spring:
   port: 8081
   application:
     name: user-service
+    greeting: "Hello from Config Server on startup!"
   
