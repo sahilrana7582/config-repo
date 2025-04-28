@@ -6,7 +6,9 @@ spring:
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10
-      
+  kafka:
+    bootstrap-servers: localhost:9092
+
   jpa:
     hibernate:
       ddl-auto: create-drop
