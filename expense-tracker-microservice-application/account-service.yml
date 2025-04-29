@@ -1,6 +1,8 @@
 spring:
-  port: 8082
   application:
     name: account-service
     greeting: "Hello from Account Server on startup!"
+
+server:
+  port: 8082
   
