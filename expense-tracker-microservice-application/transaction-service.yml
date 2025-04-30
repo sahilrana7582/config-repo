@@ -9,6 +9,6 @@ server:
 
 kafka:
   topic:
-    name: user-created
-    group-id: account-service
+    name: transaction-created
+    group-id: transaction-service
   
