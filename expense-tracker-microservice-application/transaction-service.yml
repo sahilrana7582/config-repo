@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: trasaction-service
+    greeting: "Hello from Transaction Server on startup!"
+
+server:
+  port: 8084
+
+
+kafka:
+  topic:
+    name: user-created
+    group-id: account-service
+  
