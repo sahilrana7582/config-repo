@@ -12,6 +12,18 @@ spring:
           auth: true
           starttls:
             enable: true
+
+
+resilience4j.retry:
+  instances:
+    emailServiceRetry:
+      max-attempts: 5
+      wait-duration: 2s
+      retry-exceptions:
+        - org.springframework.mail.MailException
+      ignore-exceptions:
+        - java.lang.IllegalArgumentException
+
             
             
             
