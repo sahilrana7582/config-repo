@@ -3,5 +3,9 @@ spring:
     name: notification_service
 
 
+server:
+  port: 8085
+
+
 customer:
   description: This is the custom description for the Notification Service.
