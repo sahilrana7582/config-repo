@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: notification_service
+
+
+customer:
+  description: This is the custom description for the Notification Service.
